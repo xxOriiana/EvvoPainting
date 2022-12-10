@@ -1,0 +1,43 @@
+/* ===================== MODIFICACIONES DE NAVBAR ===================== */
+.menu-ofcanvas {
+    visibility: hidden;
+}
+
+.menu-home {
+    visibility: visible;
+}
+
+.h5-ofcanvas {
+    color: white;
+}
+
+.navbar-toggler  {
+    border: none;
+    /* background-color: rgb(116, 113, 109); */
+}
+
+.navbar-toggler:focus,  .btn-close:focus {
+    box-shadow: none;
+}
+
+.btn-close {
+    background-color: rgb(209, 200, 187);
+}
+
+
+/* ===================== MODIFICACIONES DEL FOOTER ===================== */
+.page-footer ul a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* ===================== MODIFICACIONES DE MEDIA QUERY ===================== */
+@media screen and (max-width: 990px) {
+    .menu-ofcanvas {
+        visibility: visible;
+    }
+    .menu-home {
+        visibility: hidden;
+    }
+}
